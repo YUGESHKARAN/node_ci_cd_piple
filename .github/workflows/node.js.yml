@@ -29,3 +29,4 @@ jobs:
     - run: |
         touch .env
         echo "${{secrets.NODE_SERVER_ENV}}" > .env
+    - run: pm2 restart node-server 
