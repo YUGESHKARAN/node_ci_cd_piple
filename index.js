@@ -24,6 +24,9 @@ const studentRoutes = require("./Routes/StudentRoutes")
 
 
 app.use("/student",loginRoute)
+app.get("/test",(req,res)=>{
+    res.status(200).json({messag:"test route working"})
+})
 app.use("/students",studentRoutes)
 
 app.listen(3000,(err)=>{
