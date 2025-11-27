@@ -17,6 +17,7 @@ const subjectSchema = new mongoose.Schema({
     },
 });
 
+
 const Subject = mongoose.model("Subject", subjectSchema);
 
 const studentSchema = new mongoose.Schema({
