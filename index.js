@@ -34,5 +34,5 @@ app.listen(3000,(err)=>{
     console.log(err)
     return;
   }
-    console.log("server running at 3000")
+    console.log("server running at http://127.0.0.1:3000")
 })
